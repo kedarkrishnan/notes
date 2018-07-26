@@ -1,6 +1,6 @@
-#Functional Programming
+# Functional Programming
 
-###Why
+### Why
 - Imperative 
 - Declarative - What we want rather than delve how to do it.
 Concise is short, devoid of noise, and boiled down to its essence to convey the intent effectively.
@@ -13,7 +13,7 @@ Concise is short, devoid of noise, and boiled down to its essence to convey the 
 - Prefer expressions over statements
 - Design with higher-order functions
 
-###Basic
+### Basic
 - Functional Interface
 	- Consumer - apply 
 	- Predicate<T> : predicates takes one parameter of type T and returns a boolean result

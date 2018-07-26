@@ -1,4 +1,4 @@
-#Design Principles
+# Design Principles
 - High Cohesion and Low Coupling
 - YAGNI - You ain't going to need it 
 - DRY - Do not repeat yourself (code and effort)
