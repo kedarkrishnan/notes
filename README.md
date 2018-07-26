@@ -1,4 +1,4 @@
-# Notes
+# Index
 - [Bookmarks](./bookmarks.md)
 - [Design Principles](./design.md)
 - [Functional Programming](./functional.md)
