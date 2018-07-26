@@ -1,0 +1,26 @@
+#Design Principles
+- High Cohesion and Low Coupling
+- YAGNI - You ain't going to need it 
+- DRY - Do not repeat yourself (code and effort)
+- Single Responsibility Principle
+	- Short methods
+	- SLAP - Single level of Absraction
+	- Compose Method Pattern
+- Open-Close principle (OCP)
+	 - Abstraction and polymorphism
+- Liskov's substitution principle
+	- Inheritance should be used only for substitutability
+		- If an Object of B should be used **anywhere** an object of A is used then use inheritance
+		- If an Object of B should be **use** an object of A, then use composition / delegation		
+	- User of the base class should be able to use an instance of the derived class without knowing the difference
+		- Services of the derived class should require no more and promise no less than the corresponding services of the base class
+			- public vs protected in base vs derived
+			- derived function can't throw a new checked exception not thrown by the base class (unless the new exception extends the old one...) 
+			- collection of derived does not extend from collection of base
+	- Use composition or delegation instead of inheritance unless you want substitutability
+		- In Java this may violate DRY , OCP		
+		- Using Groovy @Delegate does not viloate DRY, OCP as its compile time meta programming		
+- Dependency inversion principle - Decouple
+	- Class should not depend on another class, they have to depend on an abstraction (interface)
+- Interface segregation principle - Keep interfaces Cohesive
+	- Make the interfaces narrow focused and cohesive
