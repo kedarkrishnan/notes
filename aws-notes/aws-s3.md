@@ -39,6 +39,12 @@
 - Glacier : Archived data
 		- very cheap
 		- 3/5 hrs to restore
+		
+class | storage | get
+--- | --- | ---
+Standard | $$$ | $
+IA | $$ | $$
+Glacier | $ | $$$
 
 #### Charge for:
 - Storage per GB
