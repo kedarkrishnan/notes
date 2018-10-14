@@ -17,10 +17,14 @@
 - [Application Integrations](#application-integrations)
 
 ## AWS Infrastructure
+- Golbal services
+	- IAM
+	- Billing ... etc
 
 #### Regions, AZ, Edge locations
 - Regions 
 	- Geographical distinct regions
+	- Regional services avaiable across avalibility zone
 - Avalibility Zones (AZ) 
 	- Discrete data centers inside a region 
 	- Atleast 2 avalibity zone
