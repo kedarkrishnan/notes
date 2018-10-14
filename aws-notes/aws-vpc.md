@@ -22,7 +22,7 @@ Network | Target
 - Public Route table
 
 Network | Target
---- | --- |
+--- | --- 
 10.0.0.0/16 | Local
 0.0.0.0/0 | IGW
 
@@ -44,11 +44,4 @@ Network | Target
 - default allow all
 
 ---
-
-VPC - 10.0.0.0/16
-		- Subnet AZ1
-			- 10.0.1.0/24 - public - Internet gate		
-			- 10.0.4.0/24 - private - NAT	
-		- Subnet AZ1
-			- 10.0.3.0/24
-			- 10.0.2.0/24	
+![VPC-Subnet](https://github.com/kedarkrishnan/notes/blob/master/aws-notes/VPC-Subnet.jpg)
