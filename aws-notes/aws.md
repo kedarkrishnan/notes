@@ -28,6 +28,7 @@
 - Avalibility Zones (AZ) 
 	- Discrete data centers inside a region 
 	- Atleast 2 avalibity zone
+	- Fault tolerated
 - Edge Locations 
 	- Amazons CDN 
 	- Caching data 
