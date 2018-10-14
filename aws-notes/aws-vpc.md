@@ -12,6 +12,7 @@
 
 ### Routing
 - Main Route table
+
 Network | Target
 ---|---
 10.0.0.0/16 | Local
