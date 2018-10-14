@@ -4,31 +4,31 @@
 - Scope: Availibility zone
 
 **Type:**
-	- on Demand
-		- low cost and flexibility
-		- pay by hour or by sec
-		- applications with short term spikes, unpredictated workloads
-		- application developed or tested on Amazon EC2 for first time
+- on Demand
+	- low cost and flexibility
+	- pay by hour or by sec
+	- applications with short term spikes, unpredictated workloads
+	- application developed or tested on Amazon EC2 for first time
 
-	- Reserved Instances / Scheduled instance
-		- offers significant discount on the hourly charge
-		- contact 1 or 3 years
-		- application with steady state or predicated usage
-		- application that require reserved capacity
+- Reserved Instances / Scheduled instance
+	- offers significant discount on the hourly charge
+	- contact 1 or 3 years
+	- application with steady state or predicated usage
+	- application that require reserved capacity
 
-	- Spot Instances
-		- enables you to bid
-			- Say you bid for 100 and price goes to 90 you are provisioned instances then the prices go back up to 150 the instances are terminated
-			- if AWS terminated - you will not be charged for partial hour of usage
-			- if you terminate it, you will be charged for full hour
-			- hibernate the state
-		- flexible start and end time
-		- users with urgent needs for large amount of addtional capacity
+- Spot Instances
+	- enables you to bid
+		- Say you bid for 100 and price goes to 90 you are provisioned instances then the prices go back up to 150 the instances are terminated
+		- if AWS terminated - you will not be charged for partial hour of usage
+		- if you terminate it, you will be charged for full hour
+		- hibernate the state
+	- flexible start and end time
+	- users with urgent needs for large amount of addtional capacity
 
-	- Dedicated hosts / instance
-		- regulatory requirement
-		- physical EC2 servers
-		- licensing which does not support multi-tenancy 
+- Dedicated hosts / instance
+	- regulatory requirement
+	- physical EC2 servers
+	- licensing which does not support multi-tenancy 
 
 > Ec2 Instance Types: FIGHT DR MC PX
 	
