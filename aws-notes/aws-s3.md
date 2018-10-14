@@ -1,5 +1,5 @@
 # S3 - Simple Storage Service
-
+- scope: regional
 - Object Storage Only
 - File - 0 to 5TB
 - Unlimited storage
