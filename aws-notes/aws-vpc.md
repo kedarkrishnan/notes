@@ -13,6 +13,7 @@
 ### Routing
 - Main Route table
 Network | Target
+---|---
 10.0.0.0/16 | Local
 
 ### Internet Gateway
@@ -20,13 +21,15 @@ Network | Target
 - Used by public subnet for internet traffic
 - Public Route table
 Network | Target
+--- | --- |
 10.0.0.0/16 | Local
-0.0.0.0/0 | IGW	
+0.0.0.0/0 | IGW
 
 ### NAT - Network Address Translation
 - convert private address to public adress on internet
 - Private Route table
 Network | Target
+--- | --- 
 10.0.0.0/16 | Local
 0.0.0.0/0 | NAT	
 
