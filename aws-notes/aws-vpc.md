@@ -20,6 +20,7 @@ Network | Target
 - Scope: Regional
 - Used by public subnet for internet traffic
 - Public Route table
+
 Network | Target
 --- | --- |
 10.0.0.0/16 | Local
@@ -28,6 +29,7 @@ Network | Target
 ### NAT - Network Address Translation
 - convert private address to public adress on internet
 - Private Route table
+
 Network | Target
 --- | --- 
 10.0.0.0/16 | Local
