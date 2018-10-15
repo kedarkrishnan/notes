@@ -1,7 +1,7 @@
 # EC2
 - Instance metadata gives information about the EC2 instance
 		- 169.254.169.254 - link local ip to connect to hypervisor
-- Scope: Availibility zone
+- **Scope: Availibility zone**
 
 **Type:**
 - on Demand
