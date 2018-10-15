@@ -34,7 +34,9 @@
 	
 ### EBS - Elastic block storage 
 -	Disk in cloud which is attached to EC2 instances
-	
+
+> Create --> Attach --> Attach and Use --> CreateSnapshot --> Detach --> Delete
+
 - EBS Volumne types
 	- General purpose SSD (GP2)
 		- 3 to 10,000 IOPS
