@@ -34,6 +34,7 @@
 	
 ### EBS - Elastic block storage 
 -	Disk in cloud which is attached to EC2 instances
+- **Scope: Availibility zone**
 
 > Create --> Attach --> Attach and Use --> CreateSnapshot --> Detach --> Delete
 
